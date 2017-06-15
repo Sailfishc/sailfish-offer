@@ -71,7 +71,7 @@ public class Client {
             System.out.println("队列已空");
             System.exit(0);
         } else {
-            return queueType.data[head++];
+            return queueType.data[queueType.head++];
         }
         return null;
     }
